@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table id="timetable">
+        <tr>
+            <th></th>
+            <th colspan="5" class="header">Timetable</th>
+        </tr>
+        <tr>
+            <th rowspan="6" class="vertical">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thurs</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td class="subject" data-info="Teacher: Pinki Mam, Contact: 9997654421">Science</td>
+            <td class="subject" data-info="Teacher: Archana Mam, Contact: 9997654421">Maths</td>
+            <td class="subject" data-info="Teacher: Pinki Mam, Contact: 9997654421">Science</td>
+            <td class="subject" data-info="Teacher: Archana Mam, Contact: 9997654421">Maths</td>
+            <td class="subject" data-info="Teacher: Sayantan Sir, Contact: 9997654421">Arts</td>
+        </tr>
+        <tr>
+            <td class="subject" data-info="Teacher: Sohil Sir, Contact: 9997654421">Social</td>
+            <td class="subject" data-info="Teacher: Vivek Sir, Contact: 9997654421">Hindi</td>
+            <td class="subject" data-info="Teacher: Sayantan Sir, Contact: 9997654421">English</td>
+            <td class="subject" data-info="Teacher: Sohil Sir, Contact: 9997654421">Social</td>
+            <td class="subject" data-info="Teacher: Himanshu Sir, Contact: 9997654421">Sports</td>
+        </tr>
+        <tr class="lunch">
+            <td colspan="5">Lunch</td>
+        </tr>
+        <tr>
+            <td class="subject" data-info="Teacher: Pinki Mam, Contact: 9997654421">Science</td>
+            <td class="subject" data-info="Teacher: Archana Mam, Contact: 9997654421">Maths</td>
+            <td class="subject" data-info="Teacher: Pinki Mam, Contact: 9997654421">Science</td>
+            <td class="subject" data-info="Teacher: Archana Mam, Contact: 9997654421">Maths</td>
+            <td rowspan="2" class="subject" data-info="Project session. No specific teacher.">Project</td>
+        </tr>
+        <tr>
+            <td class="subject" data-info="Teacher: Sohil Sir, Contact: 9997654421">Social</td>
+            <td class="subject" data-info="Teacher: Vivek Sir, Contact: 9997654421">Hindi</td>
+            <td class="subject" data-info="Teacher: Sayantan Sir, Contact: 9997654421">English</td>
+            <td class="subject" data-info="Teacher: Sohil Sir, Contact: 9997654421">Social</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

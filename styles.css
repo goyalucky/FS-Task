@@ -1,0 +1,39 @@
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.lunch {
+    text-align: center;
+    font-style: italic;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.subject:hover {
+    background-color: #c8e6c9;
+    transform: scale(1.05);
+}
